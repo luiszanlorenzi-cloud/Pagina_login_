@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Login</title>
+</head>
+<body>
+
+
+
+
+Digite seu usuário:
+<input id="usuario" type="text">
+
+
+
+
+<br><br>
+
+
+
+
+Digite sua senha:
+<input id="senha" type="password">
+
+
+
+
+<br><br>
+
+
+
+
+<button onclick="entrar()">Entrar</button>
+
+
+
+
+<script>
+function entrar() {
+var usuario = document.getElementById("usuario").value;
+var senha = document.getElementById("senha").value;
+
+
+
+
+if (usuario == "escola" && senha == "cesf2026") {
+alert("Login correto! Bem-vindo.");
+}
+else {
+alert("Usuario ou senha incorretos!");
+}
+}
+</script>
+
+
+
+
+</body>
+</html>
